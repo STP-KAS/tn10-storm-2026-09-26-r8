@@ -3,6 +3,10 @@
 > Good intentions, shaky hands. STP does not know what he is doing. We test, we write down what we think we saw, and that is the whole product. A number here is not the truth. A chart is not the truth. Any other sentence that sounds sure of itself is not the truth either. Do not count any of it as a claim.
 >
 > [Disclaimer](DISCLAIMER.md)
+>
+> **Part of [tn-master](https://github.com/STP-KAS/tn-master)**, the map of every TN10 storm. Renamed on 11 Oct 2026 from `tn10-vprogs-round8-covenants`; old links redirect here.
+>
+> ← previous storm: [tn10-storm-2026-09-26-r7](https://github.com/STP-KAS/tn10-storm-2026-09-26-r7) | next storm: [tn10-storm-2026-09-26-verdict](https://github.com/STP-KAS/tn10-storm-2026-09-26-verdict) →
 
 > **Experimental only. Testnet-10 only. Not a product, not advice, not Kaspa core, not an audit.** [DISCLAIMER.md](DISCLAIMER.md)
 
@@ -10,9 +14,9 @@
 
 26 Sep 2026, 16:19–18:16 CEST. Kaspa **testnet-10 only**. The operator is STP-KAS, with Grok Bot. Round 8 builds the "Ideas" list from round 7. Each design is a SilverScript v1.0.0 covenant whose rules are enforced by **L1 consensus**. There is no off-chain runtime, no prover and no indexer. Every design was run twice: once on a quiet network (set A) and once during a storm (set B).
 
-- Previous round: [tn10-vprogs-round7-ideas](https://github.com/STP-KAS/tn10-vprogs-round7-ideas)
-- Reply to the outside reading: [tn10-vprogs-grokbot-opinion](https://github.com/STP-KAS/tn10-vprogs-grokbot-opinion)
-- Front door: [tn10-vprogs-stress-findings](https://github.com/STP-KAS/tn10-vprogs-stress-findings)
+- Previous round: [tn10-storm-2026-09-26-r7](https://github.com/STP-KAS/tn10-storm-2026-09-26-r7)
+- Reply to the outside reading: [tn10-storm-2026-09-26-bot-opinion](https://github.com/STP-KAS/tn10-storm-2026-09-26-bot-opinion)
+- Front door: [tn10-storm-2026-09-25](https://github.com/STP-KAS/tn10-storm-2026-09-25)
 
 No wallet keys, seeds or mnemonics are in this repository. Addresses in logs are replaced by `<addr>`. Transaction ids are kept.
 
@@ -152,7 +156,7 @@ Round 7 showed that one covenant game (CovTTT) is enforced by L1. Round 8 asks t
 
 - SilverScript v1.0.0 tutorial: `blake2b`, byte `^` / `&`, `split`, `validateOutputState`, `this.ageDaa`, `readInputStateWithTemplate`.
 - rusty-kaspa v2.1.0: sequence-lock check in mempool admission; KIP-9 storage mass.
-- Round 7: [CovTTT + timeout lock results](https://github.com/STP-KAS/tn10-vprogs-round7-ideas), [opinion reply](https://github.com/STP-KAS/tn10-vprogs-grokbot-opinion).
+- Round 7: [CovTTT + timeout lock results](https://github.com/STP-KAS/tn10-storm-2026-09-26-r7), [opinion reply](https://github.com/STP-KAS/tn10-storm-2026-09-26-bot-opinion).
 
 ## Flaws (ours)
 
